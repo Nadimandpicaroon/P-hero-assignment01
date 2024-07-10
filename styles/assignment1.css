@@ -19,6 +19,21 @@
     opacity: 0.7;
 }
 
+.dark3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.primary-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7; 
+    font-size: 20px;   
+    font-weight: 600; 
+    padding: 20px;
+}
+
 .header {
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -47,6 +62,7 @@
     color: white;
     padding: 21px 24px;
     font-weight: 600;
+    margin: 32px 0px;
 }
 
 .banner-profile-pic {
@@ -65,14 +81,38 @@ main {
     margin: 0 auto;
 }
 
-.reason {
-    padding: 54px 152px 88px 148px;
+.about {
+    padding: 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
 
-.reasons-paragraph {
+.section-title {
+    position: static;
+    margin: 48px 0px;
+}
+
+.section-description {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+}
+
+
+.why-dev{
+    margin: 47px;
+    padding: 0px;
+}
+
+.change-the-world {
+    display: flex;
+    flex-direction: left;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: left;
+    padding: 48px;
+}
+
+.abc{
+    margin-right: 100px;
 }
