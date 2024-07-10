@@ -28,9 +28,9 @@
 .primary-btn {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7; 
-    font-size: 20px;   
-    font-weight: 600; 
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
     padding: 20px;
 }
 
@@ -84,7 +84,13 @@ main {
 .about {
     padding: 80px 97px;
     border-radius: 16px;
+
+}
+
+.first-section {
+    border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
 }
 
 .section-title {
@@ -99,7 +105,7 @@ main {
 }
 
 
-.why-dev{
+.why-dev {
     margin: 47px;
     padding: 0px;
 }
@@ -113,11 +119,11 @@ main {
     padding: 48px;
 }
 
-.abc{
+.abc {
     margin-right: 100px;
 }
 
-.modern-web-system{
+.modern-web-system {
     display: flex;
     flex-direction: left;
     justify-content: flex-start;
@@ -126,10 +132,20 @@ main {
     margin: 32px 10.5px 101px 9.5px;
 }
 
-.img-padd{
+.img-padd {
     margin-right: 48.8px;
 }
 
-.def{
+.def {
     margin-right: 101px;
+}
+
+/* My inspiration part */
+.Inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 88px 144px 48px 144px;
 }
