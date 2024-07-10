@@ -116,3 +116,20 @@ main {
 .abc{
     margin-right: 100px;
 }
+
+.modern-web-system{
+    display: flex;
+    flex-direction: left;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 32px 10.5px 101px 9.5px;
+}
+
+.img-padd{
+    margin-right: 48.8px;
+}
+
+.def{
+    margin-right: 101px;
+}
