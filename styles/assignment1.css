@@ -242,6 +242,73 @@ main {
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
-.btn{
+
+.btn {
     margin: 24px 0px;
+}
+
+/* I need support */
+.frame-8 {
+    width: 1140px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+}
+
+.frame-9 {
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.frame-title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+.frame-description {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 16px 0px;
+}
+
+.frame-23{
+    display: flex;
+    flex-direction: row;
+}
+
+.frame-7 {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 0px 16px;
+    padding: 19px 20px;
+}
+
+.submit-btn {
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    margin: 0px 16px;
+    padding: 17px 20px;
+    background: rgb(255, 255, 255);
 }
