@@ -171,3 +171,15 @@ main {
     margin: 48px 0px;
 
 }
+
+
+/* My Current Target styles */
+.current-target-title {
+    width: 852px;
+    height: 115px;
+    align-items: center;
+    padding: 0px;
+}
+.head{
+    margin-bottom: 24px;
+}
