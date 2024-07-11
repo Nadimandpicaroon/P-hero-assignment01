@@ -108,6 +108,7 @@ main {
 .section-title {
     position: static;
     margin: 48px 0px;
+    /* padding: 0px 200px; */
 }
 
 .section-description {
@@ -192,11 +193,14 @@ main {
     width: 852px;
     height: 115px;
     align-items: center;
+    text-align: center;
     padding: 0px;
+    padding-left: 50px;
 }
 
 .head {
     margin-bottom: 24px;
+
 }
 
 .skills-container {
@@ -212,11 +216,15 @@ main {
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
+}
+
+.css-box-margin {
+    margin-bottom: 55px;
 }
 
 .css-box {
@@ -224,7 +232,7 @@ main {
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     padding: 40px;
     border-radius: 16px;
@@ -236,7 +244,7 @@ main {
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     padding: 40px;
     border-radius: 16px;
@@ -249,7 +257,7 @@ main {
 
 /* I need support */
 .frame-8 {
-    width: 1140px;
+    width: 850px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -263,6 +271,7 @@ main {
     background-image: url(../assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    padding: 40px 0px;
 }
 
 .frame-title {
@@ -288,9 +297,10 @@ main {
     margin: 16px 0px;
 }
 
-.frame-23{
+.frame-23 {
     display: flex;
     flex-direction: row;
+    padding-left: 50px;
 }
 
 .frame-7 {
@@ -311,4 +321,23 @@ main {
     margin: 0px 16px;
     padding: 17px 20px;
     background: rgb(255, 255, 255);
+}
+
+/* footer section wrok */
+footer {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(13, 19, 33);
 }
