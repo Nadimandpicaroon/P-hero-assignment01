@@ -43,6 +43,7 @@
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
+    border: none;
 }
 
 .header {
@@ -200,6 +201,7 @@ main {
 
 .skills-container {
     display: flex;
+    flex-direction: left;
     gap: 24px;
     padding: 40px;
 }
@@ -212,6 +214,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 40px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
 }
@@ -223,6 +226,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 40px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
 }
@@ -234,6 +238,10 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 40px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+.btn{
+    margin: 24px 0px;
 }
