@@ -149,3 +149,25 @@ main {
     padding: 0px;
     margin: 88px 144px 48px 144px;
 }
+
+.Inspiration-title {
+    position: static;
+    width: 852px;
+    height: 115px;
+}
+
+.box-video {
+    position: static;
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 48px 0px;
+
+}
